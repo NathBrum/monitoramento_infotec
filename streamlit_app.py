@@ -98,7 +98,7 @@ st.markdown("""
 st.markdown("<div style='display:flex; align-items:center; justify-content:center; gap:15px; flex-wrap:wrap;'>", unsafe_allow_html=True)
 if os.path.exists("logo.png"):
     logo = Image.open("logo.png")
-    st.image(logo, width=150)
+    st.image(logo, width=180)
 else:
     st.warning("⚠️ Logo não encontrada ('logo.png' na pasta).")
 st.markdown("<h1 style='color:white; margin:0;'>💻 Monitoramento de Equipamentos Infotec</h1>", unsafe_allow_html=True)
